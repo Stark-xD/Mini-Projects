@@ -31,7 +31,6 @@ public class Player1 {
 	}
 	
 	public void heal() {
-//		System.out.println(health);
 		if (this.health < 1)
 			System.out.println(getName() + " is already dead. Heal doesn't possible");
 		else {
@@ -43,24 +42,12 @@ public class Player1 {
 	public String getName() {
         return name;
     }
-
-//    public void setName(String name) {
-//        this.name = name;
-//    }
-
+	
     public String getWeapon() {
         return weapon;
     }
 
-//    public void setWeapon(String weapon) {
-//        this.weapon = weapon;
-//    }
-
     public int getHealth() {
         return health;
     }
-
-//    public void setHealth(int health) {
-//        this.health = health;
-//    }
 }
